@@ -1,0 +1,40 @@
+/* This font is kinda demonic, ngl */
+@font-face {
+    font-family: "comforter brush";
+    src: url(./fonts/ComforterBrush-Regular.ttf);
+}
+
+h1 {
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 5vw;
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+}
+
+#topic {
+    font-family: "comforter brush";
+    font-size: 40px;
+}
+
+.serious {
+    font-size: 6mm;
+}
+
+.memery {
+    font-size: 0.3cm;
+}
+
+#subscribe {
+    font-size: 4em;
+}
+
+* {
+    background-color: #61c2c2;
+}
+
+#nixon {
+    text-decoration: line-through;
+}
