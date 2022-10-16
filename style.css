@@ -17,18 +17,46 @@ h2 {
 #topic {
     font-family: "comforter brush";
     font-size: 40px;
+    position: static;
+    top: 400px;
+}
+
+section{
+    border-style: double;
+    border-color: hsl(156, 98%, 54%);
+    border-width: 3px;
+    border-radius: 10px;
+    display: inline-block;
 }
 
 .serious {
     font-size: 6mm;
+    margin: 2vh 2vh 1vw 1vw;
+    padding: 1vh 1vh 1vw 1vw;
 }
 
 .memery {
     font-size: 0.3cm;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.credit{
+    border: 5px dashed darkblue;
+    padding: 1vh 1vh 1vw 1vw;
+    position: sticky;
+    bottom: 10px;
 }
 
 #subscribe {
-    font-size: 4em;
+    font-size: 3em;
+    margin: auto
 }
 
 * {
@@ -37,4 +65,16 @@ h2 {
 
 #nixon {
     text-decoration: line-through;
+}
+
+/* Basically removed the usefulness of span */
+span {
+    display: block;
+}
+
+footer {
+    width: 90vw;
+    height: 90vh;
+    max-width: 3in;
+    max-height: 1in;
 }
