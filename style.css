@@ -54,10 +54,21 @@ section{
     bottom: 10px;
 }
 
-#subscribe {
-    font-size: 3em;
-    margin: auto
+@media screen and (min-width: 5in) {
+    #subscribe {
+        font-size: 3em;
+    }
+    section#subscribe{
+        display: grid;
+        grid-template-columns: [first] 30vw [line2] auto [end];
+        grid-template-rows: [first] auto [line2] auto [end];
+    }
+    #subscribe > p{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
 }
+
 
 * {
     background-color: #61c2c2;
@@ -77,4 +88,21 @@ footer {
     height: 90vh;
     max-width: 3in;
     max-height: 1in;
+    margin: auto;
+}
+
+button:hover{
+    color: rebeccapurple;
+}
+
+button:active{
+    background-color: coral;
+}
+
+form, #survey {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 40vw;
+    justify-content: center;
 }
