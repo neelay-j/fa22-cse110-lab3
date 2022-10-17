@@ -10,7 +10,7 @@ h1 {
     font-size: 5vw;
 }
 
-h2 {
+main h2 {
     color: rgb(255, 0, 0);
 }
 
@@ -19,6 +19,18 @@ h2 {
     font-size: 40px;
     position: static;
     top: 400px;
+}
+
+h1 ~ h3{
+    font-family: "comforter brush";
+}
+
+h2 + h3{
+    color: darkmagenta;
+}
+
+[makegreen="yep"]{
+    color: green;
 }
 
 section{
